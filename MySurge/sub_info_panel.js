@@ -34,7 +34,7 @@ Sub_info = script-name=Sub_info,update-interval=86400
   let total = info.total;
   let expire = args.expire || info.expire;
   let proportion = used / total;
-  let content = [`𝗨𝘀𝗲𝗱 : ${toPercent(proportion)} | 𝗔𝘃𝗹 : ${bytesToSize(total-used)}`];
+  let content = [`𝐔𝐬𝐞𝐝 : ${toPercent(proportion)} | 𝐀𝐯𝐥 : ${bytesToSize(total-used)}`];
 
 /*
   if (resetDayLeft) {
